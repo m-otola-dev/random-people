@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Random People&hearts;</title>
+    <link href="design.css" rel="stylesheet" type="text/css" />
+    <!-- (Optional) Link to an existing or new stylesheet 
+        that includes rules for at least these selectors:
+        body, header, main, footer, button, and div.
+       ** 
+    -->
+    <script src="random.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <header>
+        <h1>&#10024;motola's wacky randomizer&#10024;</h1>
+    </header>
+    <main>
+        <article>
+            <h2>&#10048;welcome to my wacky people finder!&#10048;</h2>
+            <p>we will be getting all of our wacky contestants from 
+            <a href="https://randomuser.me/" target="_blank">this</a> website!&#10048;
+            </p>
+            <p>you can either call the API directly from the
+                <button id="browsOpt" value="call from browser.">&#10146;browser</button>
+                OR through the 
+                <button id="servOpt" value="call through Express server.">&#10146;Express server</button>
+            </p>
+            <p>the decision is yours&#127756;</p>
+            <h3>&#8681;your random users will display below&#8681; </h3>
+            <table>
+                <div id="data">
+                    
+                </div>
+            </table>
+        </article>
+    </main>
+    <!-- Add a header with heading 1 to name the app. -->
+    <!-- Add a main area with a paragraph describing the app's purpose and to instruct the user.-->
+    <!-- Add buttons to the main area for the user to execute the two different ways to call the API. -->
+    <!-- Add a division tag to the main area to render the random data. -->
+    <!-- Add a footer with paragraph that provides a copyright statement. -->
+    <footer>
+        <p>&copy; 3133 Omotola Anibaba &hearts;</p>
+        <!--have to use 3133 because the font family I chose weirdly changes the numbers-->
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+@import url('http://fonts.cdnfonts.com/css/crazy');
+@import url('http://fonts.cdnfonts.com/css/silly');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand+SC&display=swap');
+
+body {
+    background-image: url(./chaotic.png);
+    background-size: 100 vw 100vh;
+    font-family: Georgia, serif;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size:18px;
+    background-repeat: no-repeat;
+}
+body{
+    text-align: center;
+    border:40px double aqua;
+    border-color: aqua;
+    border-style: double;
+    border-image-repeat: repeat;
+    border-image-slice: 10;
+    border-image-width: 10;
+   
+}
+
+header  {
+    color:hotpink;
+    font-family: 'Crazy', sans-serif;
+    font-family: 'Crazy Gradient', sans-serif;
+    font-family: 'Crazy Hollow', sans-serif;
+    text-align: center;
+}
+
+footer {
+    color: hotpink;
+    font-family: 'silly', sans-serif; 
+    font-size: 18px;
+    text-align: center;
+}
+main {
+    color:black;
+    text-shadow: 4px 4px 4px gray ;
+    font-weight: bolder;
+    font-family: 'Indie Flower', cursive; 
+    font-size: 20px;
+    text-align: center;
+}
+
+header, main, footer {
+    background-color: transparent;
+}
+
+div {
+    font-family: 'Patrick Hand SC', cursive ;
+    color: black;
+    text-shadow: 4px 4px 4px gray;
+    text-align: center;
+ }
+
+ button{
+    background-color: hotpink;
+ }
+
+ button:hover {
+    background-color:deeppink;
+    color:aquamarine;
+ }
